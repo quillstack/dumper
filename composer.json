@@ -1,0 +1,30 @@
+{
+    "description": "Variables dumper library.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "variables",
+        "dumper",
+        "export",
+        "php8"
+    ],
+    "homepage": "https://quillstack.org/dumper",
+    "authors": [
+        {
+            "name": "Radek Ziemniewicz",
+            "email": "radek@quillstack.org"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "QuillStack\\Dumper\\": "src/",
+            "QuillStack\\Tests\\Dumper\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
